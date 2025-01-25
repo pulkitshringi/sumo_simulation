@@ -4,6 +4,6 @@
 
 
     <!-- Define Trip for Emergency Vehicle -->
-    <trip id="emergency_trip" type="emergency" depart="20" from="1149819097#5" to="1150114904#3"/>
+    <trip id="emergency_trip" type="emergency" depart="10" from="1149819097#5" to="1150114904#3"/>
 </routes>
 
