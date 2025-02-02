@@ -1,0 +1,9 @@
+<routes>
+    <!-- Define Emergency Vehicle Type -->
+<vType id="emergency" accel="3.0" decel="4.5" sigma="0.5" maxSpeed="30" color="1,0,0" laneChangeMode="0b0101010101" imperfection="0" lcStrategic="0"/>
+
+
+    <!-- Define Trip for Emergency Vehicle -->
+    <trip id="emergency_trip" type="emergency" depart="10" from="1149819097#5" to="1150114904#3"/>
+</routes>
+

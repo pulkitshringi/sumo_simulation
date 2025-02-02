@@ -1,0 +1,15 @@
+{
+    "sumo": {
+        "config_path": "config/sumo/osm.sumocfg",
+        "gui_enabled": true
+    },
+    "traffic_light": {
+        "target_cluster": "cluster_30037241_304918729",
+        "emergency_distance_threshold": 50,
+        "restoration_delay": 5
+    },
+    "logging": {
+        "directory": "logs",
+        "prefix": "emergency_vehicle_log"
+    }
+}
