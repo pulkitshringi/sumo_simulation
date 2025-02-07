@@ -156,9 +156,9 @@ class MultiJunctionEmergencyControl:
             sumo_cmd = [
                 sumo_binary, 
                 "-c", self.sumo_config_path,
-                "--log-file", os.path.join(self.project_root, "sumo_simulation.log"),
-                "--log-level", "DEBUG"
+                "--verbose"  
             ]
+
             
             self.logger.info(f"Launching SUMO with command: {' '.join(sumo_cmd)}")
             
