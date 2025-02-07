@@ -1,5 +1,5 @@
-from main import EmergencyTrafficControl
+from main import MultiJunctionEmergencyControl
 
 if __name__ == "__main__":
-    controller = EmergencyTrafficControl()
+    controller = MultiJunctionEmergencyControl("config/sumo/osm.sumocfg")
     controller.run()
